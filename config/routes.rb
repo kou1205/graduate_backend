@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
-  namespace :api do
-    namespace :v1 do
-      resources :users, only: [:index, :create, :update, :destroy]
-      get 'users/by_year/:year', to: 'users#by_year'
-      get 'users/by_company/:company', to: 'users#by_company'
-    end
-  end
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+
+  # Defines the root path route ("/")
+  # root "articles#index"
 end
