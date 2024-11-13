@@ -6,3 +6,4 @@ class CreateCompanies < ActiveRecord::Migration[7.0]
     end
   end
 end
+# 企業テーブル

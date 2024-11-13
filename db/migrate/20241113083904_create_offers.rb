@@ -7,3 +7,4 @@ class CreateOffers < ActiveRecord::Migration[7.0]
     end
   end
 end
+# 中間テーブル
